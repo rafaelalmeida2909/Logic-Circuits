@@ -1,0 +1,6 @@
+n_inputs,[number of inputs],[input name1],[...],[input nameN]
+n_outputs,[number of outputs],[output name1],[...],[output nameN]
+n_gates,[number of gates],[gate name1],[...],[gate nameN]
+[gate name1],[type gate],[output name],[input name1],[...],[input nameN]
+[...]
+[gate nameN],[type gate],[output name],[input name1],[...],[input nameN]

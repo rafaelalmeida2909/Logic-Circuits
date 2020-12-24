@@ -1,0 +1,9 @@
+n_inputs,5,A,B,C,D,E
+n_outputs,2,S1,S2
+n_gates,6,g1,g2,g3,g4,g5,g6
+g1,nand,y1,C,B
+g2,or,S1,y1,A,y2
+g3,or,y2,B,C
+g4,and,y3,D,E
+g5,or,y4,y2,y3
+g6,nand,S2,y1,y4

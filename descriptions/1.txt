@@ -1,0 +1,10 @@
+n_inputs,5,G1,G2,G3,G4,G5
+n_outputs,2,S1,S2
+n_gates,7,g1,g2,g3,g4,g5,g6,g7
+g1,nor,y1,G5,G2
+g2,nor,S1,y1,y3
+g3,nand,y2,G4,G3
+g4,not,y3,y2
+g5,nand,y4,y2,G2
+g6,nand,y5,G3,G1
+g7,nand,S2,y4,y5
