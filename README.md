@@ -1,4 +1,4 @@
-# Logic Circuits <img src="./images/diodo.png" height=25>
+# Logic Circuits <img src="images/diodo.png" height=25>
 A logic circuits simulator program through textual description, in Python3.
 
 ## Steps to use
