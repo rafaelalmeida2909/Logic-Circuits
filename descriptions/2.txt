@@ -3,6 +3,6 @@ n_outputs,2,S,Cout
 n_gates,5,g1,g2,g3,g4,g5
 g1,xor,y1,A,B
 g2,xor,S,y1,Cin
-g3,and,y3,y1,Cin
-g4,and,y4,B,A
-g5,or,Cout,y3,y4
+g3,and,y2,y1,Cin
+g4,and,y3,B,A
+g5,or,Cout,y2,y3
