@@ -93,7 +93,7 @@ class Circuit():
 
     def writeTrueTable(self):
         try:
-            with open(path.join("true tables", f"True Table - {self.file_name}.txt"), "w+") as t:
+            with open(path.join("truth tables", f"Truth Table - {self.file_name}.txt"), "w+") as t:
                 count = 0
                 table = []
                 for _ in range(2**self.n_inputs):
