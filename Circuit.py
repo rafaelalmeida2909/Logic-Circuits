@@ -81,14 +81,14 @@ class Circuit():
                         ver = False
                         break
                 if ver:
-                    if gate[0] in dic.keys():
+                    if gate[0].lower() in dic.keys():
                         bins = [self.points[bin] for bin in gate[2::]]
                         self.points[gate[1]] = dic[gate[0]](bins)
                         solved.append(gate[1])
                         self.desc[count] = None
                     else:
                         raise Exception(
-                            f"Gate type: {gate[0].lower}, invalid!")
+                            f"Gate type: {gate[0].lower()}, invalid!")
                 count += 1
 
     def writeTrueTable(self):
